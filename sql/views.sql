@@ -70,4 +70,3 @@ SELECT h.id AS host_id, h.name AS host_name, COUNT(l.id) AS total_listings
 FROM hosts h
 LEFT JOIN listings l ON h.id = l.host_id
 GROUP BY h.id, h.name;
-GROUP BY ng.name, n.name;
