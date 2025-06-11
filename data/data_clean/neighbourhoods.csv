@@ -1,0 +1,222 @@
+id,neighbourhood,neighbourhood_group_id
+0,Kensington,0
+1,Midtown,1
+2,Harlem,1
+3,Clinton Hill,0
+4,East Harlem,1
+5,Murray Hill,1
+6,Bedford-Stuyvesant,0
+7,Hell's Kitchen,1
+8,Upper West Side,1
+9,Chinatown,1
+10,South Slope,0
+11,West Village,1
+12,Williamsburg,0
+13,Fort Greene,0
+14,Chelsea,1
+15,Crown Heights,0
+16,Park Slope,0
+17,Windsor Terrace,0
+18,Inwood,1
+19,East Village,1
+20,Greenpoint,0
+21,Bushwick,0
+22,Flatbush,0
+23,Lower East Side,1
+24,Prospect-Lefferts Gardens,0
+25,Long Island City,2
+26,Kips Bay,1
+27,SoHo,1
+28,Upper East Side,1
+29,Prospect Heights,0
+30,Washington Heights,1
+31,Woodside,2
+32,Brooklyn Heights,0
+33,Carroll Gardens,0
+34,Gowanus,0
+35,Flatlands,0
+36,Cobble Hill,0
+37,Flushing,2
+38,Boerum Hill,0
+39,Sunnyside,2
+40,DUMBO,0
+41,St. George,3
+42,Highbridge,4
+43,Financial District,1
+44,Ridgewood,2
+45,Morningside Heights,1
+46,Jamaica,2
+47,Middle Village,2
+48,NoHo,1
+49,Ditmars Steinway,2
+50,Flatiron District,1
+51,Roosevelt Island,1
+52,Greenwich Village,1
+53,Little Italy,1
+54,East Flatbush,0
+55,Tompkinsville,3
+56,Astoria,2
+57,Clason Point,4
+58,Eastchester,4
+59,Kingsbridge,4
+60,Two Bridges,1
+61,Queens Village,2
+62,Rockaway Beach,2
+63,Forest Hills,2
+64,Nolita,1
+65,Woodlawn,4
+66,University Heights,4
+67,Gravesend,0
+68,Gramercy,1
+69,Allerton,4
+70,East New York,0
+71,Theater District,1
+72,Concourse Village,4
+73,Sheepshead Bay,0
+74,Emerson Hill,3
+75,Fort Hamilton,0
+76,Bensonhurst,0
+77,Tribeca,1
+78,Shore Acres,3
+79,Sunset Park,0
+80,Concourse,4
+81,Elmhurst,2
+82,Brighton Beach,0
+83,Jackson Heights,2
+84,Cypress Hills,0
+85,St. Albans,2
+86,Arrochar,3
+87,Rego Park,2
+88,Wakefield,4
+89,Clifton,3
+90,Bay Ridge,0
+91,Graniteville,3
+92,Spuyten Duyvil,4
+93,Stapleton,3
+94,Briarwood,2
+95,Ozone Park,2
+96,Columbia St,0
+97,Vinegar Hill,0
+98,Mott Haven,4
+99,Longwood,4
+100,Canarsie,0
+101,Battery Park City,1
+102,Civic Center,1
+103,East Elmhurst,2
+104,New Springville,3
+105,Morris Heights,4
+106,Arverne,2
+107,Cambria Heights,2
+108,Tottenville,3
+109,Mariners Harbor,3
+110,Concord,3
+111,Borough Park,0
+112,Bayside,2
+113,Downtown Brooklyn,0
+114,Port Morris,4
+115,Fieldston,4
+116,Kew Gardens,2
+117,Midwood,0
+118,College Point,2
+119,Mount Eden,4
+120,City Island,4
+121,Glendale,2
+122,Port Richmond,3
+123,Red Hook,0
+124,Richmond Hill,2
+125,Bellerose,2
+126,Maspeth,2
+127,Williamsbridge,4
+128,Soundview,4
+129,Woodhaven,2
+130,Woodrow,3
+131,Co-op City,4
+132,Stuyvesant Town,1
+133,Parkchester,4
+134,North Riverdale,4
+135,Dyker Heights,0
+136,Bronxdale,4
+137,Sea Gate,0
+138,Riverdale,4
+139,Kew Gardens Hills,2
+140,Bay Terrace,2
+141,Norwood,4
+142,Claremont Village,4
+143,Whitestone,2
+144,Fordham,4
+145,Bayswater,2
+146,Navy Yard,0
+147,Brownsville,0
+148,Eltingville,3
+149,Fresh Meadows,2
+150,Mount Hope,4
+151,Lighthouse Hill,3
+152,Springfield Gardens,2
+153,Howard Beach,2
+154,Belle Harbor,2
+155,Jamaica Estates,2
+156,Van Nest,4
+157,Morris Park,4
+158,West Brighton,3
+159,Far Rockaway,2
+160,South Ozone Park,2
+161,Tremont,4
+162,Corona,2
+163,Great Kills,3
+164,Manhattan Beach,0
+165,Marble Hill,1
+166,Dongan Hills,3
+167,Castleton Corners,3
+168,East Morrisania,4
+169,Hunts Point,4
+170,Neponsit,2
+171,Pelham Bay,4
+172,Randall Manor,3
+173,Throgs Neck,4
+174,Todt Hill,3
+175,West Farms,4
+176,Silver Lake,3
+177,Morrisania,4
+178,Laurelton,2
+179,Grymes Hill,3
+180,Holliswood,2
+181,Pelham Gardens,4
+182,Belmont,4
+183,Rosedale,2
+184,Edgemere,2
+185,New Brighton,3
+186,Midland Beach,3
+187,Baychester,4
+188,Melrose,4
+189,Bergen Beach,0
+190,Richmondtown,3
+191,Howland Hook,3
+192,Schuylerville,4
+193,Coney Island,0
+194,New Dorp Beach,3
+195,Prince's Bay,3
+196,South Beach,3
+197,Bath Beach,0
+198,Jamaica Hills,2
+199,Oakwood,3
+200,Castle Hill,4
+201,Hollis,2
+202,Douglaston,2
+203,Huguenot,3
+204,Olinville,4
+205,Edenwald,4
+206,Grant City,3
+207,Westerleigh,3
+208,"Bay Terrace, Staten Island",3
+209,Westchester Square,4
+210,Little Neck,2
+211,Fort Wadsworth,3
+212,Rosebank,3
+213,Unionport,4
+214,Mill Basin,0
+215,Arden Heights,3
+216,Bull's Head,3
+217,New Dorp,3
+218,Rossville,3
+219,Breezy Point,2
+220,Willowbrook,3
