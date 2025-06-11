@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load main Airbnb dataset
-df = pd.read_csv("AB_NYC_2019.csv")  # Use actual filename
+df = pd.read_csv("../data/data_raw/AB_NYC_2019.csv") 
 
 # =============================
 # 1. Neighbourhood Groups
