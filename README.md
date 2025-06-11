@@ -27,8 +27,9 @@ AirBnB-NYC/
 ├── docs/                     # Data dictionary, schema, and query docs
 ├── notebooks/
 │   └── ExploratoryDataAnalysis.ipynb  # Main EDA notebook
+├── visualisations/               # Saved plots from EDA notebook
 ├── scripts/
-│   └── load_etl.py           # ETL script for loading data into PostgreSQL
+│   └── load_etl.py           # ETL script for loading data into 
 ├── sql/
 │   ├── schema.sql            # Database schema
 │   ├── views.sql             # Analytical views
@@ -38,6 +39,8 @@ AirBnB-NYC/
 │       ├── neighbourhoods.sql
 │       ├── room_types.sql
 │       └── reviews.sql
+├── tests/
+│   └── test_etl.py           # ETL unit tests
 ├── .env                      # Environment variables (not tracked in git)
 ├── .gitignore
 ├── README.md
@@ -85,6 +88,26 @@ Start Jupyter and open the EDA notebook:
 jupyter notebook notebooks/ExploratoryDataAnalysis.ipynb
 ```
 
+All generated plots and charts will be saved in the `visualisations/` folder for easy access and sharing.
+
+---
+
+## Data Validation & Testing
+
+### Data Validation
+Check your cleaned CSVs for missing values, schema mismatches, and column issues before loading to the database:
+
+```bash
+python scripts/data_validation.py
+```
+
+### ETL Unit Tests
+Ensure your ETL configuration and table mapping are correct:
+
+```bash
+python -m unittest tests/test_etl.py
+```
+
 ---
 
 ## Data Sources
@@ -113,3 +136,18 @@ This project is for educational and portfolio use. See `LICENSE` for more detail
 ## Author & Contact
 - GitHub: [SHAH-MEER](https://github.com/SHAH-MEER)
 - Email: shahmeershahzad67@gmail.com
+
+---
+
+## Suggestions for Project Improvement
+
+- **Automated Data Validation:** Add scripts to check data quality, missing values, and schema mismatches before loading to the database.
+- **Unit Tests:** Implement tests for ETL scripts and data transformations to ensure reliability.
+- **Dockerization:** Create a Dockerfile and docker-compose setup for easy, reproducible deployment of the database and ETL pipeline.
+- **CI/CD Integration:** Set up GitHub Actions or similar for automated testing and deployment.
+- **Interactive Dashboards:** Add a dashboard (e.g., Streamlit, Dash, or Tableau Public) for interactive data exploration.
+- **Granular Reviews Table:** Expand the reviews table to store one row per review for deeper text and time-series analysis.
+- **Geospatial Analysis:** Integrate with mapping libraries (e.g., Folium, Plotly) for advanced spatial visualizations.
+- **Performance Optimization:** Add indexes on frequently queried columns and analyze slow queries.
+- **API Layer:** Expose key queries and analytics via a REST API (e.g., using FastAPI or Flask).
+- **User Documentation:** Add tutorial notebooks and more sample queries for new users.
