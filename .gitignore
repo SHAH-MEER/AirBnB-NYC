@@ -3,3 +3,6 @@ __pycache__/
 .env
 *.db
 logs/
+
+# LFS: SVG files (handled via Git LFS)
+# See README for instructions
